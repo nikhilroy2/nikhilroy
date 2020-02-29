@@ -1,0 +1,11 @@
+.btn_toggle_bar{
+    width: 50px;
+    height: 40px;
+    background: #444;
+    border: none;
+    outline: none;
+   
+}
+.btn_toggle_bar:focus{
+    outline: none;
+}

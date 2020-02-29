@@ -1,0 +1,23 @@
+.project_card .img_wrapper{
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.project_card .img_wrapper img{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    object-fit: cover;
+    object-position: left top;
+}
+
+.project_card .repo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+    background: #333;
+    color: white;
+    width: 100%;
+}
